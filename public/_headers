@@ -1,0 +1,12 @@
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://calendly.com; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://calendly.com ws: wss: http://localhost:5173 http://localhost:5000; frame-src 'self' https://calendly.com; worker-src 'self' blob:; frame-ancestors 'self'; form-action 'self'; base-uri 'self'; upgrade-insecure-requests
+  X-Permitted-Cross-Domain-Policies: none
+  Cross-Origin-Resource-Policy: same-origin
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: unsafe-none
+*/

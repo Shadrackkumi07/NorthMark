@@ -11,7 +11,7 @@ const routes = [
     name: 'home',
     component: HomePage,
     meta: {
-      title: 'Professional Commercial Property Maintenance',
+      title: 'Northmark Facility Services',
       description: 'Northmark Facility Services delivers reliable commercial property maintenance and janitorial services with enterprise-grade security.',
       ogType: 'website'
     }

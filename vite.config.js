@@ -9,7 +9,7 @@ const csp = [
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "img-src 'self' data: https://calendly.com",
   "font-src 'self' data: https://fonts.gstatic.com",
-  "connect-src 'self' https://calendly.com ws: wss: http://localhost:5173 http://localhost:5000",
+  "connect-src 'self' https://calendly.com ws: wss: http://localhost:5173 http://localhost:5000 https://northmark-backend-uzaq.onrender.com",
   "frame-src 'self' https://calendly.com",
   "worker-src 'self' blob:",
   "frame-ancestors 'self'",

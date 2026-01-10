@@ -277,7 +277,7 @@ const goToEstimate = () => {
   border-bottom-right-radius: 32px;
   box-shadow: 0 20px 40px rgba(8, 18, 30, 0.12);
   background-image: linear-gradient(rgba(15, 48, 87, 0.68), rgba(15, 48, 87, 0.68)), url('/HOME.jpg');
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
 }
 

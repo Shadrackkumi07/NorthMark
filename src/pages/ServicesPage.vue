@@ -68,7 +68,6 @@ const services = [
     points: [
       'Routine facility upkeep',
       'Office cleaning',
-      'Medical facility sanitization',
       'Floor care and maintenance',
       'Restroom sanitization',
       'Quality control documentation'
@@ -78,7 +77,7 @@ const services = [
   {
     title: 'Routine Janitorial Services',
     description:
-      'Consistent, reliable janitorial services for offices, medical facilities, and commercial buildings. We provide scheduled service with attention to detail and quality standards.',
+      'Consistent, reliable janitorial services for offices and commercial buildings. We provide scheduled service with attention to detail and quality standards.',
     points: [
       'Daily/weekly scheduled service',
       'Customized cleaning plans',

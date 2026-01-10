@@ -49,7 +49,7 @@
             Northmark Facility Services provides professional commercial property maintenance and
             janitorial services focused on supporting daily building operations and protecting property
             condition. Our services include commercial property maintenance and cleaning, routine
-            janitorial services, and general facility upkeep for offices, medical facilities, and
+            janitorial services, and general facility upkeep for offices, and
             commercial buildings. We work with property owners and managers to maintain clean, safe, and
             consistently serviced environments through documented procedures and quality control
             standards.
@@ -70,7 +70,7 @@
                   <div class="nm-icon-badge q-mb-sm">
                     <q-icon name="local_hospital" size="24px" />
                   </div>
-                  <div class="text-body2">Medical Facilities</div>
+                 
                 </div>
                 <div class="col-6">
                   <div class="nm-icon-badge q-mb-sm">
@@ -211,7 +211,7 @@ const servicesPreview = [
   },
   {
     title: 'Routine Janitorial',
-    description: 'Customized schedules for offices, medical facilities, and buildings.',
+    description: 'Customized schedules for offices, and buildings.',
     icon: 'cleaning_services'
   },
   {

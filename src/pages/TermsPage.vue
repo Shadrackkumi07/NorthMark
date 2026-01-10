@@ -31,7 +31,7 @@
     <div class="text-subtitle1 text-weight-medium q-mt-lg q-mb-sm">Contact</div>
     <p class="text-body1">
       For questions about these terms, contact
-      <a href="mailto:info@northmarkfacility.com">info@northmarkfacility.com</a>.
+      <a href="mailto:contact@northmarkfacility.com">contact@northmarkfacility.com</a>.
     </p>
   </q-page>
 </template>

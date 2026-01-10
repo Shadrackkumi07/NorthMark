@@ -170,10 +170,9 @@ const formErrors = reactive({
 });
 
 const serviceOptions = [
-  'Commercial Property Maintenance',
-  'After-Hours Commercial Cleaning',
+  'Commercial Property Maintenance and Cleaning',
   'Routine Janitorial Services',
-  'Aerial Inspection & Documentation'
+  'Aerial Inspection & Documentation Services'
 ];
 
 const validateField = (field) => {
@@ -234,10 +233,11 @@ const submitReview = () => {
 };
 
 const formatDate = (date) =>
-  new Date(date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
-
-const schemaId = 'nm-reviews-schema';
-const schemaSrc = '/reviews-schema.json';
+  new Date(date).toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric'
+  });
 
 onMounted(() => {
   loadReviews().catch(() => {
@@ -246,20 +246,6 @@ onMounted(() => {
       message: 'Unable to load reviews right now.'
     });
   });
-  const existing = document.getElementById(schemaId);
-  if (existing) return;
-  const script = document.createElement('script');
-  script.id = schemaId;
-  script.type = 'application/ld+json';
-  script.src = schemaSrc;
-  document.head.appendChild(script);
-});
-
-onBeforeUnmount(() => {
-  const script = document.getElementById(schemaId);
-  if (script) {
-    script.remove();
-  }
 });
 </script>
 
@@ -270,6 +256,9 @@ onBeforeUnmount(() => {
 
 .reviews-hero {
   padding: 96px 16px 80px;
+  background-image: linear-gradient(rgba(15, 48, 87, 0.68), rgba(15, 48, 87, 0.68)), url('/reviews.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .reviews-hero__title {

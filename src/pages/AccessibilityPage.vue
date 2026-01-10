@@ -19,7 +19,7 @@
     <div class="text-subtitle1 text-weight-medium q-mt-lg q-mb-sm">Feedback</div>
     <p class="text-body1">
       If you experience any accessibility issues, please contact us at
-      <a href="mailto:info@northmarkfacility.com">info@northmarkfacility.com</a> so we can assist.
+      <a href="mailto:contact@northmarkfacility.com">contact@northmarkfacility.com</a> so we can assist.
     </p>
   </q-page>
 </template>

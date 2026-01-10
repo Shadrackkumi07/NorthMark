@@ -48,16 +48,17 @@
           <p class="nm-section-lead">
             Northmark Facility Services provides professional commercial property maintenance and
             janitorial services focused on supporting daily building operations and protecting property
-            condition. Our services include after-hours commercial cleaning, routine janitorial services,
-            and general facility upkeep for offices, medical facilities, and commercial buildings. We work
-            with property owners and managers to maintain clean, safe, and consistently serviced
-            environments through documented procedures and quality control standards.
+            condition. Our services include commercial property maintenance and cleaning, routine
+            janitorial services, and general facility upkeep for offices, medical facilities, and
+            commercial buildings. We work with property owners and managers to maintain clean, safe, and
+            consistently serviced environments through documented procedures and quality control
+            standards.
           </p>
         </div>
         <div class="col-12 col-lg-6">
           <q-card class="nm-surface-card" flat>
             <q-card-section>
-              <div class="text-subtitle1 text-weight-medium q-mb-sm">Service Coverage</div>
+              <div class="text-subtitle1 text-weight-medium q-mb-sm">Services</div>
               <div class="row q-col-gutter-md">
                 <div class="col-6">
                   <div class="nm-icon-badge q-mb-sm">
@@ -116,10 +117,32 @@
     <section class="page-section nm-container">
       <div class="row items-center justify-between q-mb-lg">
         <div class="nm-section-title">Trust indicators</div>
-        <div class="text-body2 text-grey-7">Standards that keep your facilities audit-ready.</div>
       </div>
       <div class="row q-col-gutter-lg">
         <div v-for="item in trustIndicators" :key="item.title" class="col-12 col-md-4">
+          <q-card class="nm-surface-card full-height" flat>
+            <q-card-section>
+              <div class="row items-start q-gutter-md">
+                <div class="nm-icon-badge">
+                  <q-icon :name="item.icon" size="24px" />
+                </div>
+                <div>
+                  <div class="text-subtitle1 text-weight-medium q-mb-xs">{{ item.title }}</div>
+                  <div class="text-body2">{{ item.description }}</div>
+                </div>
+              </div>
+            </q-card-section>
+          </q-card>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section nm-container">
+      <div class="row items-center justify-between q-mb-lg">
+        <div class="nm-section-title">Core values</div>
+      </div>
+      <div class="row q-col-gutter-lg">
+        <div v-for="item in coreValues" :key="item.title" class="col-12 col-md-3">
           <q-card class="nm-surface-card full-height" flat>
             <q-card-section>
               <div class="row items-start q-gutter-md">
@@ -182,13 +205,8 @@ const router = useRouter();
 
 const servicesPreview = [
   {
-    title: 'Commercial Property Maintenance',
-    description: 'Proactive upkeep, preventive maintenance, and systems oversight.',
-    icon: 'handyman'
-  },
-  {
-    title: 'After-Hours Cleaning',
-    description: 'Quiet, consistent cleaning that never disrupts operations.',
+    title: 'Commercial Property Maintenance and Cleaning',
+    description: 'Routine facility upkeep with commercial cleaning that protects building assets.',
     icon: 'schedule'
   },
   {
@@ -221,6 +239,29 @@ const trustIndicators = [
   }
 ];
 
+const coreValues = [
+  {
+    title: 'Integrity',
+    description: 'We deliver honest service and transparent communication.',
+    icon: 'verified_user'
+  },
+  {
+    title: 'Partnership',
+    description: 'We align with property teams to support long-term success.',
+    icon: 'handshake'
+  },
+  {
+    title: 'Reliability',
+    description: 'We show up consistently and follow through on commitments.',
+    icon: 'schedule'
+  },
+  {
+    title: 'Quality',
+    description: 'We focus on the details that keep facilities looking their best.',
+    icon: 'workspace_premium'
+  }
+];
+
 const goToEstimate = () => {
   router.push({ hash: '#estimate' });
 };
@@ -235,6 +276,9 @@ const goToEstimate = () => {
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
   box-shadow: 0 20px 40px rgba(8, 18, 30, 0.12);
+  background-image: linear-gradient(rgba(15, 48, 87, 0.68), rgba(15, 48, 87, 0.68)), url('/HOME.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .nm-hero__grid {

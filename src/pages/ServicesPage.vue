@@ -7,8 +7,8 @@
           Operational-ready facility care
         </div>
         <p class="text-white services-hero__lead q-mt-md nm-reveal nm-reveal--delay">
-          We deliver a complete suite of maintenance, janitorial, and inspection services designed to
-          keep commercial properties clean, safe, and consistently serviced.
+          We support commercial properties through professional cleaning, exterior maintenance support,
+          and aerial inspection services designed to protect building assets.
         </p>
       </div>
     </section>
@@ -28,7 +28,6 @@
             </q-card-section>
             <q-separator />
             <q-card-section>
-              <div class="text-subtitle2 text-weight-medium q-mb-sm">Key features</div>
               <div class="row q-col-gutter-sm">
                 <div v-for="point in service.points" :key="point" class="col-12 col-sm-6">
                   <div class="service-point">
@@ -63,22 +62,11 @@
 <script setup>
 const services = [
   {
-    title: 'Commercial Property Maintenance',
+    title: 'Commercial Property Maintenance and Cleaning',
     description:
-      'Comprehensive commercial property maintenance services including routine upkeep, preventive maintenance, and building systems support. We work with property owners and managers to protect property condition and ensure smooth daily operations.',
+      'Professional commercial cleaning and exterior maintenance support designed to keep facilities clean and protected without disrupting operations. Our trained staff follows documented procedures and quality control standards.',
     points: [
       'Routine facility upkeep',
-      'Building systems maintenance',
-      'Property condition protection',
-      'Scheduled maintenance programs'
-    ],
-    icon: 'apartment'
-  },
-  {
-    title: 'After-Hours Commercial Cleaning',
-    description:
-      'Professional after-hours commercial cleaning services designed to maintain clean, healthy work environments without disrupting your business operations. Our trained staff follows documented procedures and quality control standards.',
-    points: [
       'Office cleaning',
       'Medical facility sanitization',
       'Floor care and maintenance',
@@ -107,8 +95,7 @@ const services = [
       'Roof and exterior inspections',
       'High-resolution imagery and video',
       'Property condition documentation',
-      'Safety-first approach',
-      'Detailed inspection reports'
+      'Safety-first approach'
     ],
     icon: 'flight'
   }
@@ -122,6 +109,10 @@ const services = [
 
 .services-hero {
   padding: 96px 16px 80px;
+  background-image: linear-gradient(rgba(15, 48, 87, 0.68), rgba(15, 48, 87, 0.68)), url('/SERVICES.jpg');
+  background-size: cover;
+  background-position: center calc(50% + 120px);
+
 }
 
 .services-hero__title {

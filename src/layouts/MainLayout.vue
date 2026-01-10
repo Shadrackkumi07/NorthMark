@@ -164,6 +164,7 @@ const navItems = [
   { label: 'Home', to: { name: 'home' }, icon: 'home' },
   { label: 'Services', to: { name: 'services' }, icon: 'business_center' },
   { label: 'Reviews', to: { name: 'reviews' }, icon: 'star' },
+  { label: 'Contact Us', to: { name: 'home', hash: '#estimate' }, icon: 'support_agent' },
   { label: 'Book Appointment', to: { name: 'appointments' }, icon: 'event' }
 ];
 

@@ -73,7 +73,16 @@ export default function useReviews() {
     if (!response.ok) {
       throw new Error('Failed to submit review.');
     }
-    await loadReviews();
+    const data = await response.json().catch(() => ({}));
+    const created = data?.review ? normalizeReview(data.review) : null;
+    if (created && created.rating >= 1 && created.rating <= 5 && isValidDate(created.date)) {
+      sortedReviews.value = [created, ...sortedReviews.value].sort(
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+      );
+      storedReviews.value = sortedReviews.value.filter((item) => item.source === 'user');
+    } else {
+      await loadReviews();
+    }
   };
 
   const removeReview = async (id) => {

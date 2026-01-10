@@ -4,7 +4,8 @@ import {
   validateEmailAddress,
   validatePhoneNumber,
   validateZipCode,
-  normalizePhoneNumber
+  normalizePhoneNumber,
+  validateServiceSelections
 } from '../utils/validators';
 import { sanitizeTextInput } from '../utils/sanitizer';
 
@@ -13,7 +14,8 @@ const errorMessages = {
   lastName: 'Please enter a valid last name (2-50 characters)',
   email: 'Please enter a valid email address',
   phone: 'Please enter a valid 10-digit phone number',
-  zip: 'Please enter a valid 5-digit zip code'
+  zip: 'Please enter a valid 5-digit zip code',
+  services: 'Please select at least one service'
 };
 
 export default function useFormValidation(initialState = {}) {
@@ -23,6 +25,7 @@ export default function useFormValidation(initialState = {}) {
     email: '',
     phone: '',
     zip: '',
+    services: '',
     ...initialState
   });
 
@@ -31,7 +34,8 @@ export default function useFormValidation(initialState = {}) {
     lastName: validateName,
     email: validateEmailAddress,
     phone: validatePhoneNumber,
-    zip: validateZipCode
+    zip: validateZipCode,
+    services: validateServiceSelections
   };
 
   const sanitizePayload = (payload) => ({
@@ -40,7 +44,10 @@ export default function useFormValidation(initialState = {}) {
     lastName: sanitizeTextInput(payload.lastName),
     email: sanitizeTextInput(payload.email).toLowerCase(),
     phone: normalizePhoneNumber(payload.phone),
-    zip: sanitizeTextInput(payload.zip)
+    zip: sanitizeTextInput(payload.zip),
+    services: Array.isArray(payload.services)
+      ? payload.services.map((service) => sanitizeTextInput(service)).filter(Boolean)
+      : []
   });
 
   const validateField = (field, value) => {

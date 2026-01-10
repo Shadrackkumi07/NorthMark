@@ -32,13 +32,13 @@
     <div class="text-subtitle1 text-weight-medium q-mt-lg q-mb-sm">Your Choices</div>
     <p class="text-body1">
       You may request access, correction, or deletion of your information by contacting us at
-      <a href="mailto:info@northmarkfacility.com">info@northmarkfacility.com</a>.
+      <a href="mailto:contact@northmarkfacility.com">contact@northmarkfacility.com</a>.
     </p>
 
     <div class="text-subtitle1 text-weight-medium q-mt-lg q-mb-sm">Contact</div>
     <p class="text-body1">
       For privacy questions, email
-      <a href="mailto:info@northmarkfacility.com">info@northmarkfacility.com</a> or call
+      <a href="mailto:contact@northmarkfacility.com">contact@northmarkfacility.com</a> or call
       <a href="tel:+17015616324">(701) 561-6324</a>.
     </p>
   </q-page>

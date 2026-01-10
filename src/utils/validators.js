@@ -22,6 +22,11 @@ export function validateZipCode(value) {
   return validateZip(value);
 }
 
+export function validateServiceSelections(value) {
+  if (!Array.isArray(value)) return false;
+  return value.map((item) => sanitizeInput(item)).filter(Boolean).length > 0;
+}
+
 export function normalizePhoneNumber(value) {
   return normalizePhone(value);
 }

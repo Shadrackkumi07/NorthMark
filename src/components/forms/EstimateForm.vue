@@ -71,6 +71,18 @@
             @blur="handleBlur('zip')"
           />
         </div>
+        <div class="col-12">
+          <div class="text-subtitle2 text-weight-medium q-mb-sm">Services</div>
+          <q-option-group
+            v-model="form.services"
+            type="toggle"
+            color="primary"
+            :options="serviceOptions"
+            :error="Boolean(errors.services)"
+            :error-message="errors.services"
+            @update:model-value="handleServicesChange"
+          />
+        </div>
       </div>
 
       <input type="hidden" name="csrfToken" :value="csrfToken" />
@@ -120,7 +132,8 @@ const form = reactive({
   lastName: '',
   email: '',
   phone: '',
-  zip: ''
+  zip: '',
+  services: []
 });
 
 const submitted = ref(false);
@@ -130,6 +143,10 @@ const { submitting, csrfToken, honeypot, canSubmit, submit } = useSecureSubmit()
 
 const handleBlur = (field) => {
   validateField(field, form[field]);
+};
+
+const handleServicesChange = () => {
+  validateField('services', form.services);
 };
 
 const handleEmailBlur = () => {
@@ -143,14 +160,6 @@ const handlePhoneBlur = () => {
 };
 
 const handleSubmit = async () => {
-  if (!canSubmit()) {
-    Notify.create({
-      type: 'negative',
-      message: 'Please wait a moment before submitting again.'
-    });
-    return;
-  }
-
   const validation = validateForm(form);
   if (!validation.valid) {
     Notify.create({
@@ -168,6 +177,7 @@ const handleSubmit = async () => {
     form.email = '';
     form.phone = '';
     form.zip = '';
+    form.services = [];
     Notify.create({
       type: 'positive',
       message: result.message
@@ -179,6 +189,18 @@ const handleSubmit = async () => {
     });
   }
 };
+
+const serviceOptions = [
+  {
+    label: 'Commercial Property Maintenance and Cleaning',
+    value: 'Commercial Property Maintenance and Cleaning'
+  },
+  { label: 'Routine Janitorial Services', value: 'Routine Janitorial Services' },
+  {
+    label: 'Aerial Inspection & Documentation Services',
+    value: 'Aerial Inspection & Documentation Services'
+  }
+];
 </script>
 
 <style scoped>

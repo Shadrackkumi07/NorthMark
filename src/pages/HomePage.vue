@@ -246,7 +246,7 @@ const coreValues = [
     icon: 'verified_user'
   },
   {
-    title: 'Partnership',
+    title: 'Service',
     description: 'We align with property teams to support long-term success.',
     icon: 'handshake'
   },

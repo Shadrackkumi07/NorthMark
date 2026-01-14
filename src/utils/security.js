@@ -62,8 +62,13 @@ export function applyPageMeta(route) {
     return;
   }
 
-  const titleBase = 'Northmark Facility Services LLC';
-  const pageTitle = route.meta?.title ? `${route.meta.title} | ${titleBase}` : titleBase;
+  const titleBase = 'Northmark Facility Services';
+  const rawTitle = route.meta?.title;
+  const pageTitle = rawTitle
+    ? rawTitle === titleBase
+      ? titleBase
+      : `${rawTitle} | ${titleBase}`
+    : titleBase;
   const description =
     route.meta?.description ||
     'Commercial property maintenance and janitorial services with trusted quality control.';
@@ -80,10 +85,32 @@ export function applyPageMeta(route) {
     tag.setAttribute('content', encodeHTML(content));
   };
 
+  const ensureLink = (rel, href) => {
+    let link = document.querySelector(`link[rel="${rel}"]`);
+    if (!link) {
+      link = document.createElement('link');
+      link.setAttribute('rel', rel);
+      document.head.appendChild(link);
+    }
+    link.setAttribute('href', href);
+  };
+
+  const normalizePath = (path) => {
+    if (!path) return '/';
+    const cleanPath = path.split('?')[0].split('#')[0];
+    if (cleanPath === '' || cleanPath === '/') return '/';
+    return cleanPath.endsWith('/') ? cleanPath.slice(0, -1) : cleanPath;
+  };
+
+  const canonicalPath = normalizePath(route?.path || window.location.pathname);
+  const canonicalUrl = `${window.location.origin}${canonicalPath === '/' ? '/' : canonicalPath}`;
+
   ensureMeta('name', 'description', description);
   ensureMeta('property', 'og:title', pageTitle);
   ensureMeta('property', 'og:description', description);
   ensureMeta('property', 'og:type', route.meta?.ogType || 'website');
+  ensureMeta('property', 'og:url', canonicalUrl);
+  ensureLink('canonical', canonicalUrl);
 }
 
 export function enforceHttps() {

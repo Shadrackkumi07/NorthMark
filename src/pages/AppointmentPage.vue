@@ -9,7 +9,7 @@
           Northmark Facility Services LLC Consultation
         </div>
         <p class="text-white appointments-hero__lead q-mt-md nm-reveal nm-reveal--delay">
-          Choose a time that works for you. Weâ€™ll review scope, timelines, and next steps for your
+          Choose a time that works for you. We will review scope, timelines, and next steps for your
           facility maintenance or janitorial needs.
         </p>
       </div>

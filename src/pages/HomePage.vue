@@ -1,10 +1,10 @@
-<template>
+﻿<template>
   <q-page class="home-page">
     <section class="nm-hero nm-gradient">
       <div class="nm-hero__glow"></div>
       <div class="nm-container nm-hero__grid">
         <div>
-          <div class="hero-kicker text-uppercase text-white nm-reveal">Northmark Facility Services</div>
+          <div class="hero-kicker text-uppercase text-white nm-reveal">Northmark Facility Services LLC</div>
           <h1 class="nm-display hero-title text-white q-mb-md nm-reveal nm-reveal--delay">
             Professional Commercial Property Maintenance
           </h1>
@@ -43,10 +43,10 @@
 
     <section class="page-section nm-container">
       <div class="row q-col-gutter-xl items-center">
-        <div class="col-12 col-lg-6">
-          <div class="nm-section-title">Built for property owners and managers</div>
+        <div class="col-12">
+          <h2 class="nm-section-title text-weight-bold">Built for property owners and managers</h2>
           <p class="nm-section-lead">
-            Northmark Facility Services provides professional commercial property maintenance and
+            Northmark Facility Services LLC provides professional commercial property maintenance and
             janitorial services focused on supporting daily building operations and protecting property
             condition. Our services include commercial property maintenance and cleaning, routine
             janitorial services, and general facility upkeep for offices, and
@@ -55,38 +55,56 @@
             standards.
           </p>
         </div>
-        <div class="col-12 col-lg-6">
-          <q-card class="nm-surface-card" flat>
-            <q-card-section>
-              <div class="text-subtitle1 text-weight-medium q-mb-sm">Services</div>
-              <div class="row q-col-gutter-md">
-                <div class="col-6">
-                  <div class="nm-icon-badge q-mb-sm">
-                    <q-icon name="business" size="24px" />
+      </div>
+    </section>
+
+    <section class="page-section nm-container">
+      <div class="nm-image-panel nm-reveal">
+        <div class="row q-col-gutter-xl items-center">
+          <div class="col-12 col-lg-7">
+            <div class="text-overline text-uppercase text-white q-mb-sm">Coverage</div>
+            <h2 class="nm-section-title text-white">
+              Property-ready coverage with documented oversight
+            </h2>
+            <p class="nm-section-lead text-white">
+              From after-hours requests to scheduled upkeep, our teams follow documented checklists and
+              real-time reporting so you always know the status of your facilities.
+            </p>
+            <div class="row q-col-gutter-md q-mt-md">
+              <div class="col-12 col-sm-6">
+                <div class="nm-glass-card">
+                  <div class="text-subtitle2 text-weight-medium">After-hours response</div>
+                  <div class="text-body2 text-grey-7">
+                    Rapid support that keeps operations moving.
                   </div>
-                  <div class="text-body2">Commercial Offices</div>
-                </div>
-                <div class="col-6">
-                  <div class="nm-icon-badge q-mb-sm">
-                    <q-icon name="local_hospital" size="24px" />
-                  </div>
-                 
-                </div>
-                <div class="col-6">
-                  <div class="nm-icon-badge q-mb-sm">
-                    <q-icon name="apartment" size="24px" />
-                  </div>
-                  <div class="text-body2">Commercial Buildings</div>
-                </div>
-                <div class="col-6">
-                  <div class="nm-icon-badge q-mb-sm">
-                    <q-icon name="inventory_2" size="24px" />
-                  </div>
-                  <div class="text-body2">Industrial Properties</div>
                 </div>
               </div>
-            </q-card-section>
-          </q-card>
+              <div class="col-12 col-sm-6">
+                <div class="nm-glass-card">
+                  <div class="text-subtitle2 text-weight-medium">Scheduled care</div>
+                  <div class="text-body2 text-grey-7">
+                    Recurring upkeep aligned to tenant expectations.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="nm-panel-stack">
+              <div class="nm-panel-stat">
+                <div class="text-h4 text-weight-bold">24/7</div>
+                <div class="text-caption text-grey-7">Availability for urgent needs</div>
+              </div>
+              <div class="nm-panel-stat">
+                <div class="text-h4 text-weight-bold">100%</div>
+                <div class="text-caption text-grey-7">Visit checklists logged</div>
+              </div>
+              <div class="nm-panel-stat">
+                <div class="text-h4 text-weight-bold">Weekly</div>
+                <div class="text-caption text-grey-7">Quality walkthroughs</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -94,7 +112,7 @@
     <section class="page-section nm-container">
       <div class="row items-center justify-between q-mb-lg">
         <div>
-          <div class="nm-section-title">Service highlights</div>
+          <h2 class="nm-section-title">Service highlights</h2>
           <div class="text-body1 text-grey-8">A snapshot of the solutions we deliver every day.</div>
         </div>
         <q-btn outline color="primary" label="Learn More" :to="{ name: 'services' }" />
@@ -116,7 +134,7 @@
 
     <section class="page-section nm-container">
       <div class="row items-center justify-between q-mb-lg">
-        <div class="nm-section-title">Trust indicators</div>
+        <h2 class="nm-section-title">Trust indicators</h2>
       </div>
       <div class="row q-col-gutter-lg">
         <div v-for="item in trustIndicators" :key="item.title" class="col-12 col-md-4">
@@ -139,7 +157,7 @@
 
     <section class="page-section nm-container">
       <div class="row items-center justify-between q-mb-lg">
-        <div class="nm-section-title">Core values</div>
+        <h2 class="nm-section-title">Core values</h2>
       </div>
       <div class="row q-col-gutter-lg">
         <div v-for="item in coreValues" :key="item.title" class="col-12 col-md-3">
@@ -320,6 +338,38 @@ const goToEstimate = () => {
   line-height: 1.7;
 }
 
+.nm-image-panel {
+  position: relative;
+  border-radius: 28px;
+  padding: 48px;
+  overflow: hidden;
+  background-image:
+    linear-gradient(135deg, rgba(8, 18, 30, 0.85), rgba(8, 18, 30, 0.55)),
+    url('/HOME.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 30px 60px rgba(8, 18, 30, 0.2);
+}
+
+.nm-glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 18px 30px rgba(8, 18, 30, 0.16);
+}
+
+.nm-panel-stack {
+  display: grid;
+  gap: 16px;
+}
+
+.nm-panel-stat {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 18px 30px rgba(8, 18, 30, 0.18);
+}
+
 #estimate {
   scroll-margin-top: 96px;
 }
@@ -337,5 +387,10 @@ const goToEstimate = () => {
   .hero-sub {
     font-size: 0.98rem;
   }
+
+  .nm-image-panel {
+    padding: 32px;
+  }
 }
 </style>
+

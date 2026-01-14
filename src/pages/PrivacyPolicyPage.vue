@@ -1,11 +1,11 @@
-<template>
+﻿<template>
   <q-page class="page-section nm-container">
     <div class="nm-section-title">Privacy Policy</div>
     <p class="text-body2 text-grey-7 q-mb-lg">Effective date: January 1, 2026</p>
 
     <div class="text-subtitle1 text-weight-medium q-mb-sm">Overview</div>
     <p class="text-body1">
-      Northmark Facility Services respects your privacy. This policy explains what information we
+      Northmark Facility Services LLC respects your privacy. This policy explains what information we
       collect, how we use it, and the choices you have when visiting our website or submitting forms.
     </p>
 
@@ -43,3 +43,4 @@
     </p>
   </q-page>
 </template>
+

@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <q-page class="appointments-page">
     <section class="appointments-hero nm-gradient">
       <div class="nm-container">
@@ -6,10 +6,10 @@
           Book an Appointment
         </div>
         <div class="nm-display text-white appointments-hero__title nm-reveal nm-reveal--delay">
-          Northmark Facility Services Consultation
+          Northmark Facility Services LLC Consultation
         </div>
         <p class="text-white appointments-hero__lead q-mt-md nm-reveal nm-reveal--delay">
-          Choose a time that works for you. We’ll review scope, timelines, and next steps for your
+          Choose a time that works for you. Weâ€™ll review scope, timelines, and next steps for your
           facility maintenance or janitorial needs.
         </p>
       </div>
@@ -21,7 +21,7 @@
           <iframe
             class="calendly-frame"
             src="https://calendly.com/scheduling-northmarkfacilityservices/northmark-facility-services-consultation"
-            title="Northmark Facility Services Consultation"
+            title="Northmark Facility Services LLC Consultation"
             frameborder="0"
           ></iframe>
         </q-card-section>
@@ -69,3 +69,4 @@
   }
 }
 </style>
+

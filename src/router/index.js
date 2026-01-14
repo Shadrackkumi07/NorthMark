@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+﻿import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../pages/HomePage.vue';
 import ServicesPage from '../pages/ServicesPage.vue';
 import ReviewsPage from '../pages/ReviewsPage.vue';
@@ -11,8 +11,8 @@ const routes = [
     name: 'home',
     component: HomePage,
     meta: {
-      title: 'Northmark Facility Services',
-      description: 'Northmark Facility Services delivers reliable commercial property maintenance and janitorial services with enterprise-grade security.',
+      title: 'Northmark Facility Services LLC',
+      description: 'Northmark Facility Services LLC delivers reliable commercial property maintenance and janitorial services with enterprise-grade security.',
       ogType: 'website'
     }
   },
@@ -42,7 +42,7 @@ const routes = [
     component: () => import('../pages/AppointmentPage.vue'),
     meta: {
       title: 'Book an Appointment',
-      description: 'Schedule a consultation with Northmark Facility Services.',
+      description: 'Schedule a consultation with Northmark Facility Services LLC.',
       ogType: 'website'
     }
   },
@@ -52,7 +52,7 @@ const routes = [
     component: () => import('../pages/PrivacyPolicyPage.vue'),
     meta: {
       title: 'Privacy Policy',
-      description: 'Privacy practices for Northmark Facility Services.',
+      description: 'Privacy practices for Northmark Facility Services LLC.',
       ogType: 'website'
     }
   },
@@ -62,7 +62,7 @@ const routes = [
     component: () => import('../pages/TermsPage.vue'),
     meta: {
       title: 'Terms of Use',
-      description: 'Terms and conditions for using the Northmark Facility Services website.',
+      description: 'Terms and conditions for using the Northmark Facility Services LLC website.',
       ogType: 'website'
     }
   },
@@ -72,7 +72,7 @@ const routes = [
     component: () => import('../pages/AccessibilityPage.vue'),
     meta: {
       title: 'Accessibility Statement',
-      description: 'Accessibility statement and commitments for Northmark Facility Services.',
+      description: 'Accessibility statement and commitments for Northmark Facility Services LLC.',
       ogType: 'website'
     }
   },
@@ -145,3 +145,4 @@ router.beforeEach((to, from, next) => {
 });
 
 export default router;
+

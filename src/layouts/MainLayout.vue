@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <q-layout view="hHh lpR fff" class="bg-light">
     <a href="#main-content" class="sr-only">Skip to main content</a>
 
@@ -16,14 +16,14 @@
         <q-toolbar-title class="row items-center">
           <img
             src="/logo.webp"
-            alt="Northmark Facility Services logo"
+            alt="Northmark Facility Services LLC logo"
             class="brand-logo"
             width="80"
             height="80"
             loading="eager"
           />
           <div class="column">
-            <span class="text-weight-bold">Northmark Facility Services</span>
+            <span class="text-weight-bold">Northmark Facility Services LLC</span>
             <span class="text-caption text-grey-4">Property Maintenance &amp; Janitorial</span>
           </div>
         </q-toolbar-title>
@@ -61,9 +61,9 @@
       :width="320"
     >
       <div class="drawer-hero">
-        <img src="/logo.webp" alt="Northmark Facility Services logo" class="drawer-logo" />
+        <img src="/logo.webp" alt="Northmark Facility Services LLC logo" class="drawer-logo" />
         <div class="drawer-brand">
-          <div class="text-subtitle1 text-weight-bold">Northmark Facility Services</div>
+          <div class="text-subtitle1 text-weight-bold">Northmark Facility Services LLC</div>
           <div class="text-caption">Property Maintenance &amp; Janitorial</div>
         </div>
       </div>
@@ -105,7 +105,7 @@
       <div class="nm-container">
         <div class="row items-center justify-between q-col-gutter-md">
           <div class="column">
-            <div class="text-h6 q-mb-xs">Northmark Facility Services</div>
+            <div class="text-h6 q-mb-xs">Northmark Facility Services LLC</div>
             <div class="text-body2">Trusted commercial property maintenance partner.</div>
           </div>
           <div class="column q-gutter-sm">
@@ -133,7 +133,7 @@
         </div>
         <div class="row items-center q-mt-md q-col-gutter-md text-grey-3 footer-links">
           <div class="text-caption">
-            © 2026 Northmark Facility Services. All rights reserved.
+            © 2026 Northmark Facility Services LLC. All rights reserved.
           </div>
           <div class="row items-center q-gutter-sm text-caption">
             <q-btn flat dense class="text-grey-3" label="Privacy Policy" :to="{ name: 'privacy' }" />
@@ -342,3 +342,4 @@ const handleDrawerEstimate = () => {
   }
 }
 </style>
+

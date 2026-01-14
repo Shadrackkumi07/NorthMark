@@ -108,10 +108,9 @@ const services = [
 
 .services-hero {
   padding: 96px 16px 80px;
-  background-image: linear-gradient(rgba(15, 48, 87, 0.68), rgba(15, 48, 87, 0.68)), url('/SERVICES.jpg');
-  background-size: cover;
-  background-position: center calc(50% + 120px);
-
+  background-image: linear-gradient(rgba(15, 48, 87, 0.68), rgba(15, 48, 87, 0.68)), url('/HOME.jpg');
+  background-size: 100%;
+  background-position: center;
 }
 
 .services-hero__title {

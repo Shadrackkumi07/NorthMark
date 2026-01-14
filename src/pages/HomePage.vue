@@ -92,15 +92,15 @@
           <div class="col-12 col-lg-5">
             <div class="nm-panel-stack">
               <div class="nm-panel-stat">
-                <div class="text-h4 text-weight-bold">24/7</div>
+                <div class="text-h4">24/7</div>
                 <div class="text-caption text-grey-7">Availability for urgent needs</div>
               </div>
               <div class="nm-panel-stat">
-                <div class="text-h4 text-weight-bold">100%</div>
+                <div class="text-h4">100%</div>
                 <div class="text-caption text-grey-7">Visit checklists logged</div>
               </div>
               <div class="nm-panel-stat">
-                <div class="text-h4 text-weight-bold">Weekly</div>
+                <div class="text-h4">Weekly</div>
                 <div class="text-caption text-grey-7">Quality walkthroughs</div>
               </div>
             </div>

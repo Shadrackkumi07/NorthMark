@@ -47,6 +47,12 @@
             class="nav-cta"
             @click="goToEstimate"
           />
+          <div class="row items-center cursor-pointer text-caption text-grey-3 q-ml-sm" @click="openLinkedIn" title="Connect on LinkedIn" style="border-left: 1px solid rgba(255,255,255,0.3); padding-left: 12px;">
+            <span>Built by <span class="text-weight-bold text-white">Shark Labs</span></span>
+            <span class="q-mx-xs">&bull;</span>
+            <span>Let's connect</span>
+            <q-icon name="fa-brands fa-linkedin" color="white" class="q-ml-xs" size="1.2em" />
+          </div>
         </div>
       </q-toolbar>
     </q-header>
@@ -146,6 +152,12 @@
               label="Request an Estimate"
               @click="goToEstimate"
             />
+            <div class="row items-center cursor-pointer q-ml-md" @click="openLinkedIn" title="Connect on LinkedIn" style="border-left: 1px solid rgba(255,255,255,0.3); padding-left: 12px;">
+              <span>Built by <span class="text-weight-bold">Shark Labs</span></span>
+              <span class="q-mx-xs">&bull;</span>
+              <span>Let's connect</span>
+              <q-icon name="fa-brands fa-linkedin" class="q-ml-xs text-white" size="1.2em" />
+            </div>
           </div>
         </div>
       </div>
@@ -170,6 +182,10 @@ const navItems = [
 
 const goToEstimate = () => {
   router.push({ name: 'home', hash: '#estimate' });
+};
+
+const openLinkedIn = () => {
+  window.open('https://www.linkedin.com/in/shadrack-kumi-/', '_blank', 'noopener,noreferrer');
 };
 
 const handleDrawerEstimate = () => {

@@ -14,5 +14,5 @@ export default {
     }
   },
   animations: [],
-  extras: ['material-icons']
+  extras: ['material-icons', 'mdi-v7']
 };

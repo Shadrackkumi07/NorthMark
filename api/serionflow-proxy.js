@@ -5,6 +5,7 @@
 const PROJECT_ID = '7925219d-0f95-4130-975f-43262e617605';
 const BASE_PATH = '/exploring';
 const BACKEND_URL = 'https://api.serionflow.com';
+const CUSTOMER_HOST = 'northmarkfacilityservices.com';
 const PROXY_TOKEN = process.env.SERIONFLOW_PROXY_TOKEN;
 
 async function hmacHex(secret, message) {
@@ -83,10 +84,9 @@ async function proxy(request, response) {
     return;
   }
 
-  // Vercel may set x-forwarded-host to the internal rewrite destination.
-  // Sign the browser-facing Host header so the proof remains bound to the
-  // customer's domain rather than the SerionFlow API origin.
-  const host = firstHeader(request.headers.host) || firstHeader(request.headers['x-forwarded-host']) || '';
+  // A customer may front Vercel with a CDN that replaces both runtime host
+  // headers. Sign the configured customer domain instead of a rewrite origin.
+  const host = CUSTOMER_HOST;
   const proto = firstHeader(request.headers['x-forwarded-proto']) || 'https';
   const incomingUrl = new URL(request.url || '/', `${proto}://${host || 'localhost'}`);
   const rewrittenPath = firstQuery(request.query?.sf_path);

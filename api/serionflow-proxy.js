@@ -28,6 +28,32 @@ function firstQuery(value) {
   return Array.isArray(value) ? value[0] : value;
 }
 
+// Hop-by-hop and negotiated headers. Replaying these breaks the upstream request
+// or the downstream response, so they are rebuilt rather than forwarded.
+const SKIP_REQUEST_HEADERS = new Set([
+  'host',
+  'connection',
+  'keep-alive',
+  'proxy-authenticate',
+  'proxy-authorization',
+  'te',
+  'trailer',
+  'transfer-encoding',
+  'upgrade',
+  'content-length',
+  'accept-encoding',
+  'x-forwarded-host',
+  'x-forwarded-proto',
+]);
+
+const SKIP_RESPONSE_HEADERS = new Set([
+  'content-encoding',
+  'content-length',
+  'transfer-encoding',
+  'connection',
+  'keep-alive',
+]);
+
 const SERIONFLOW_HTML_CSP = [
   "default-src 'self' https: data: blob:",
   "script-src 'self' 'unsafe-inline' 'unsafe-eval' https: blob:",
@@ -41,6 +67,17 @@ const SERIONFLOW_HTML_CSP = [
 ].join('; ');
 
 export default async function handler(request, response) {
+  try {
+    await proxy(request, response);
+  } catch (error) {
+    console.error('SerionFlow routing failed', error);
+    if (!response.headersSent) {
+      response.status(502).send('SerionFlow routing is temporarily unavailable');
+    }
+  }
+}
+
+async function proxy(request, response) {
   if (!PROXY_TOKEN) {
     response.status(503).send('SerionFlow routing is not configured');
     return;
@@ -73,6 +110,7 @@ export default async function handler(request, response) {
 
   const headers = new Headers();
   Object.entries(request.headers).forEach(([key, value]) => {
+    if (SKIP_REQUEST_HEADERS.has(key.toLowerCase())) return;
     const headerValue = firstHeader(value);
     if (typeof headerValue === 'string') headers.set(key, headerValue);
   });
@@ -94,7 +132,7 @@ export default async function handler(request, response) {
 
   response.status(upstream.status);
   upstream.headers.forEach((value, key) => {
-    if (!['content-encoding', 'transfer-encoding', 'connection'].includes(key.toLowerCase())) {
+    if (!SKIP_RESPONSE_HEADERS.has(key.toLowerCase())) {
       response.setHeader(key, value);
     }
   });

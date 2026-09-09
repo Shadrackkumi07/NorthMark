@@ -83,7 +83,10 @@ async function proxy(request, response) {
     return;
   }
 
-  const host = firstHeader(request.headers['x-forwarded-host']) || firstHeader(request.headers.host) || '';
+  // Vercel may set x-forwarded-host to the internal rewrite destination.
+  // Sign the browser-facing Host header so the proof remains bound to the
+  // customer's domain rather than the SerionFlow API origin.
+  const host = firstHeader(request.headers.host) || firstHeader(request.headers['x-forwarded-host']) || '';
   const proto = firstHeader(request.headers['x-forwarded-proto']) || 'https';
   const incomingUrl = new URL(request.url || '/', `${proto}://${host || 'localhost'}`);
   const rewrittenPath = firstQuery(request.query?.sf_path);

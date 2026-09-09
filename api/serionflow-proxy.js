@@ -4,7 +4,7 @@
 
 const PROJECT_ID = '7925219d-0f95-4130-975f-43262e617605';
 const BASE_PATH = '/exploring';
-const BACKEND_URL = 'https://serionflow-web-getnn.ondigitalocean.app';
+const BACKEND_URL = 'https://api.serionflow.com';
 const PROXY_TOKEN = process.env.SERIONFLOW_PROXY_TOKEN;
 
 async function hmacHex(secret, message) {

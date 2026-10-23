@@ -180,3 +180,39 @@ body::after {
   opacity: 0.7;
   animation: nm-float-two 32s ease-in-out infinite;
 }
+
+/* Keep the content used for the first paint visible immediately. */
+.nm-hero .nm-reveal,
+.reviews-hero .nm-reveal,
+.appointments-hero .nm-reveal {
+  animation: none;
+}
+
+.nm-noscript-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 12px 16px;
+  background: #0f3057;
+  color: #fff;
+}
+
+.sr-only:focus {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  width: auto;
+  height: auto;
+  margin: 0;
+  clip: auto;
+  overflow: visible;
+  padding: 12px;
+  background: white;
+  color: #0f172a;
+  z-index: 10000;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .nm-reveal, body::before, body::after { animation: none; }
+}

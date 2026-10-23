@@ -1,0 +1,33 @@
+{
+  "name": "Northmark Facility Services",
+  "legalName": "Northmark Facility Services LLC",
+  "url": "https://northmarkfacilityservices.com",
+  "phone": "+17015616324",
+  "phoneDisplay": "(701) 561-6324",
+  "email": "contact@northmarkfacilityservices.com",
+  "logo": "https://northmarkfacilityservices.com/logo.webp",
+  "ogImage": "https://northmarkfacilityservices.com/HOME.jpg",
+  "ogImageWidth": 1030,
+  "ogImageHeight": 644,
+  "locality": "Fargo",
+  "region": "ND",
+  "country": "US",
+  "areaServed": [
+    { "name": "Fargo", "region": "North Dakota", "sameAs": "https://en.wikipedia.org/wiki/Fargo,_North_Dakota" },
+    { "name": "West Fargo", "region": "North Dakota", "sameAs": "https://en.wikipedia.org/wiki/West_Fargo,_North_Dakota" },
+    { "name": "Moorhead", "region": "Minnesota", "sameAs": "https://en.wikipedia.org/wiki/Moorhead,_Minnesota" }
+  ],
+  "knowsAbout": [
+    "Commercial cleaning",
+    "Commercial janitorial services",
+    "Office cleaning",
+    "Commercial property maintenance",
+    "Facility maintenance",
+    "Aerial drone inspection",
+    "Property condition documentation",
+    "Janitorial quality assurance",
+    "Building access control for service vendors"
+  ],
+  "sameAs": [],
+  "spaRoutes": ["/", "/reviews", "/appointments", "/privacy", "/terms", "/accessibility"]
+}

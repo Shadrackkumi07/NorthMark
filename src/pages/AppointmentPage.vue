@@ -1,13 +1,13 @@
-﻿<template>
+<template>
   <q-page class="appointments-page">
     <section class="appointments-hero nm-gradient">
       <div class="nm-container">
         <div class="text-white text-overline text-uppercase q-mb-sm nm-reveal">
           Book an Appointment
         </div>
-        <div class="nm-display text-white appointments-hero__title nm-reveal nm-reveal--delay">
+        <h1 class="nm-display text-white appointments-hero__title nm-reveal nm-reveal--delay">
           Northmark Facility Services LLC Consultation
-        </div>
+        </h1>
         <p class="text-white appointments-hero__lead q-mt-md nm-reveal nm-reveal--delay">
           Choose a time that works for you. We will review scope, timelines, and next steps for your
           facility maintenance or janitorial needs.
@@ -26,6 +26,7 @@
           ></iframe>
         </q-card-section>
       </q-card>
+      <p class="q-mt-md">If the scheduler does not load, <a href="https://calendly.com/scheduling-northmarkfacilityservices/northmark-facility-services-consultation" target="_blank" rel="noopener">open the booking calendar</a> or <a href="/facility-walkthrough">learn what to prepare for a facility walkthrough</a>.</p>
       <div class="text-caption text-grey-7 q-mt-sm">
         Prefer to talk now? Call <a href="tel:+17015616324">(701) 561-6324</a> or email
         <a href="mailto:scheduling@northmarkfacilityservices.com">scheduling@northmarkfacilityservices.com</a>.

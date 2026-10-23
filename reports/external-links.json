@@ -1,0 +1,1015 @@
+{
+  "checkedAt": "2026-10-23T12:16:22.822Z",
+  "results": [
+    {
+      "url": "https://advocacy.sba.gov/category/research/data-statistics/",
+      "status": 403,
+      "finalUrl": "https://advocacy.sba.gov/category/research/data-statistics/",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "020-services-small-business-janitorial.md"
+      ]
+    },
+    {
+      "url": "https://boma.org/",
+      "status": 200,
+      "finalUrl": "https://boma.org/",
+      "title": "BOMA/BOMI | The Commercial Real Estate Trade Association",
+      "files": [
+        "044-industries-multi-tenant-office-buildings.md",
+        "072-resources-janitorial-pricing-per-square-foot.md",
+        "088-resources-property-manager-janitorial-checklist.md"
+      ]
+    },
+    {
+      "url": "https://content.naic.org/insurance-topics",
+      "status": 403,
+      "finalUrl": "https://content.naic.org/insurance-topics",
+      "title": "Just a moment...",
+      "files": [
+        "083-resources-bonded-vs-insured-cleaning-company.md",
+        "096-resources-hail-season-roof-documentation.md"
+      ]
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "status": 200,
+      "finalUrl": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations | CSRC",
+      "files": [
+        "055-industries-technology-coworking.md",
+        "090-resources-vendor-key-and-access-control.md"
+      ]
+    },
+    {
+      "url": "https://deq.nd.gov/",
+      "status": 200,
+      "finalUrl": "https://deq.nd.gov/",
+      "title": "North Dakota Department of Environmental Quality",
+      "files": [
+        "051-industries-restaurants.md"
+      ]
+    },
+    {
+      "url": "https://fargond.gov/city-government/departments/inspections/permits-issued/comparative-totals",
+      "status": 200,
+      "finalUrl": "https://fargond.gov/city-government/departments/inspections/permits-issued/comparative-totals",
+      "title": "The City of Fargo - 2025 vs. 2026 Permits Comparison",
+      "files": [
+        "034-services-construction-progress-aerial-documentation.md",
+        "056-locations-fargo-nd.md",
+        "059-locations-fargo-nd-commercial-property-maintenance.md",
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://gfmedc.com/",
+      "status": 200,
+      "finalUrl": "https://gfmedc.com/",
+      "title": "Home - Greater Fargo Moorhead Economic Development Corp.",
+      "files": [
+        "046-industries-manufacturing-plants.md",
+        "048-industries-agtech-equipment-dealers.md",
+        "055-industries-technology-coworking.md",
+        "062-locations-fargo-nd-warehouse-janitorial.md",
+        "063-locations-west-fargo-nd.md",
+        "065-locations-west-fargo-nd-industrial-janitorial.md",
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://ithandbook.ffiec.gov/it-booklets/information-security/",
+      "status": 403,
+      "finalUrl": "https://ithandbook.ffiec.gov/it-booklets/information-security/",
+      "title": "CAPTCHA Error | FFIEC",
+      "files": [
+        "040-industries-banks-credit-unions.md"
+      ]
+    },
+    {
+      "url": "https://nrckids.org/",
+      "status": 200,
+      "finalUrl": "https://nrckids.org/",
+      "title": "Home | National Resource Center",
+      "files": [
+        "053-industries-childcare-centers.md"
+      ]
+    },
+    {
+      "url": "https://waterdata.usgs.gov/monitoring-location/USGS-05054000/",
+      "status": 200,
+      "finalUrl": "https://waterdata.usgs.gov/monitoring-location/USGS-05054000/",
+      "title": "Red River of the North at Fargo, ND - USGS Water Data for the Nation",
+      "files": [
+        "059-locations-fargo-nd-commercial-property-maintenance.md",
+        "070-locations-moorhead-mn-commercial-property-maintenance.md",
+        "095-resources-red-river-flood-season-property-prep.md"
+      ]
+    },
+    {
+      "url": "https://www.access-board.gov/ada/",
+      "status": 200,
+      "finalUrl": "https://www.access-board.gov/ada/",
+      "title": "ADA Accessibility Standards",
+      "files": [
+        "033-services-parking-lot-site-condition-survey.md"
+      ]
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "status": 403,
+      "finalUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "title": "Just a moment...",
+      "files": [
+        "041-industries-professional-offices.md"
+      ]
+    },
+    {
+      "url": "https://www.appa.org/",
+      "status": 200,
+      "finalUrl": "https://www.appa.org/",
+      "title": "APPA - Leadership in Educational Facilities | APPA",
+      "files": [
+        "019-services-recurring-janitorial-schedules.md",
+        "021-services-multi-site-janitorial.md",
+        "023-services-janitorial-account-management.md",
+        "052-industries-schools-education.md",
+        "072-resources-janitorial-pricing-per-square-foot.md",
+        "076-resources-janitorial-scope-of-work-template.md",
+        "091-resources-measuring-cleaning-quality-appa-levels.md",
+        "092-resources-janitorial-qa-inspection-scoring.md",
+        "100-resources-commercial-cleaning-glossary.md"
+      ]
+    },
+    {
+      "url": "https://www.astm.org/e2018-24.html",
+      "status": 403,
+      "finalUrl": "https://www.astm.org/e2018-24.html",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "028-services-property-condition-reports.md"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/news.release/ecec.toc.htm",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/news.release/ecec.toc.htm",
+      "title": "Employer Costs for Employee Compensation - 2026 Q02 Results",
+      "files": [
+        "073-resources-in-house-vs-outsourced-janitorial.md"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/ooh/building-and-grounds-cleaning/janitors-and-building-cleaners.htm",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/ooh/building-and-grounds-cleaning/janitors-and-building-cleaners.htm",
+      "title": "Janitors and Building Cleaners :     Occupational Outlook Handbook: :     U.S. Bureau of Labor Statistics",
+      "files": [
+        "008-careers.md",
+        "015-services-commercial-janitorial-services.md",
+        "018-services-after-hours-janitorial.md",
+        "079-resources-janitorial-vs-commercial-cleaning.md"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/ooh/building-and-grounds-cleaning/janitors-and-building-cleaners.htm#tab-2",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/ooh/building-and-grounds-cleaning/janitors-and-building-cleaners.htm",
+      "title": "Janitors and Building Cleaners :     Occupational Outlook Handbook: :     U.S. Bureau of Labor Statistics",
+      "files": [
+        "081-resources-what-is-included-in-janitorial-service.md"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/ooh/installation-maintenance-and-repair/general-maintenance-and-repair-workers.htm",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/general-maintenance-and-repair-workers.htm",
+      "title": "General Maintenance and Repair Workers :     Occupational Outlook Handbook: :     U.S. Bureau of Labor Statistics",
+      "files": [
+        "080-resources-facility-maintenance-vs-facility-management.md"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/ooh/management/administrative-services-managers.htm",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/ooh/management/administrative-services-managers.htm",
+      "title": "Administrative Services and Facilities Managers :     Occupational Outlook Handbook: :     U.S. Bureau of Labor Statistics",
+      "files": [
+        "026-services-facility-management-services.md",
+        "080-resources-facility-maintenance-vs-facility-management.md"
+      ]
+    },
+    {
+      "url": "https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_fargo.htm",
+      "status": 200,
+      "finalUrl": "https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_fargo.htm",
+      "title": "Occupational Employment and Wages in Fargo — May 2025 : U.S. Bureau of Labor Statistics",
+      "files": [
+        "008-careers.md",
+        "014-services-commercial-cleaning.md",
+        "036-industries-medical-offices.md",
+        "039-industries-healthcare-facilities.md",
+        "045-industries-warehouses-distribution.md",
+        "056-locations-fargo-nd.md",
+        "057-locations-fargo-nd-janitorial-services.md",
+        "061-locations-fargo-nd-medical-office-cleaning.md",
+        "062-locations-fargo-nd-warehouse-janitorial.md",
+        "064-locations-west-fargo-nd-janitorial-services.md",
+        "071-resources-commercial-cleaning-cost-fargo.md",
+        "072-resources-janitorial-pricing-per-square-foot.md",
+        "073-resources-in-house-vs-outsourced-janitorial.md",
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/dental-infection-control/hcp/summary/index.html",
+      "status": 200,
+      "finalUrl": "https://www.cdc.gov/dental-infection-control/hcp/summary/index.html",
+      "title": "Summary of Infection Prevention Practices in Dental Settings: Basic Expectations for Safe Care | Dental Infection Prevention and Control | CDC",
+      "files": [
+        "037-industries-dental-offices.md"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-a-facility.html",
+      "status": 200,
+      "finalUrl": "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-a-facility.html",
+      "title": "When and How to Clean and Disinfect a Facility | Water, Sanitation, and Environmentally Related Hygiene (WASH) | CDC",
+      "files": [
+        "016-services-office-cleaning.md",
+        "019-services-recurring-janitorial-schedules.md",
+        "050-industries-retail-storefronts.md",
+        "052-industries-schools-education.md",
+        "053-industries-childcare-centers.md",
+        "054-industries-churches.md",
+        "055-industries-technology-coworking.md",
+        "081-resources-what-is-included-in-janitorial-service.md",
+        "082-resources-cleaning-vs-sanitizing-vs-disinfecting.md",
+        "084-resources-how-often-should-an-office-be-cleaned.md",
+        "085-resources-office-cleaning-checklist.md"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/infection-control/hcp/environmental-control/index.html",
+      "status": 200,
+      "finalUrl": "https://www.cdc.gov/infection-control/hcp/environmental-control/index.html",
+      "title": "Environmental Infection Control Guidelines | Infection Control | CDC",
+      "files": [
+        "036-industries-medical-offices.md",
+        "038-industries-surgical-centers.md",
+        "039-industries-healthcare-facilities.md",
+        "061-locations-fargo-nd-medical-office-cleaning.md",
+        "086-resources-medical-office-cleaning-checklist.md",
+        "099-resources-osha-bloodborne-pathogens-medical-office-cleaning.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/naics/?input=561720&year=2022",
+      "status": 403,
+      "finalUrl": "https://www.census.gov/naics/?input=561720&year=2022",
+      "title": "Attention Required! | Cloudflare",
+      "files": [
+        "079-resources-janitorial-vs-commercial-cleaning.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cbp.html",
+      "status": 200,
+      "finalUrl": "https://www.census.gov/programs-surveys/cbp.html",
+      "title": "County Business Patterns",
+      "files": [
+        "014-services-commercial-cleaning.md",
+        "020-services-small-business-janitorial.md",
+        "021-services-multi-site-janitorial.md",
+        "024-services-commercial-property-maintenance.md",
+        "042-industries-property-management.md",
+        "044-industries-multi-tenant-office-buildings.md",
+        "057-locations-fargo-nd-janitorial-services.md",
+        "058-locations-fargo-nd-office-cleaning.md",
+        "063-locations-west-fargo-nd.md",
+        "068-locations-moorhead-mn-janitorial-services.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/economic-census.html",
+      "status": 200,
+      "finalUrl": "https://www.census.gov/programs-surveys/economic-census.html",
+      "title": "Economic Census",
+      "files": [
+        "039-industries-healthcare-facilities.md",
+        "061-locations-fargo-nd-medical-office-cleaning.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/popest.html",
+      "status": 200,
+      "finalUrl": "https://www.census.gov/programs-surveys/popest.html",
+      "title": "Population and Housing Unit Estimates",
+      "files": [
+        "042-industries-property-management.md",
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/quickfacts/casscountynorthdakota",
+      "status": 403,
+      "finalUrl": "https://www.census.gov/quickfacts/casscountynorthdakota",
+      "title": "Attention Required! | Cloudflare",
+      "files": [
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/quickfacts/claycountyminnesota",
+      "status": 403,
+      "finalUrl": "https://www.census.gov/quickfacts/claycountyminnesota",
+      "title": "Attention Required! | Cloudflare",
+      "files": [
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/quickfacts/fargocitynorthdakota",
+      "status": 403,
+      "finalUrl": "https://www.census.gov/quickfacts/fargocitynorthdakota",
+      "title": "Attention Required! | Cloudflare",
+      "files": [
+        "043-industries-multifamily-common-areas.md",
+        "056-locations-fargo-nd.md",
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/quickfacts/moorheadcityminnesota",
+      "status": 403,
+      "finalUrl": "https://www.census.gov/quickfacts/moorheadcityminnesota",
+      "title": "Attention Required! | Cloudflare",
+      "files": [
+        "067-locations-moorhead-mn.md",
+        "069-locations-moorhead-mn-office-cleaning.md",
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/quickfacts/westfargocitynorthdakota",
+      "status": 403,
+      "finalUrl": "https://www.census.gov/quickfacts/westfargocitynorthdakota",
+      "title": "Attention Required! | Cloudflare",
+      "files": [
+        "063-locations-west-fargo-nd.md",
+        "064-locations-west-fargo-nd-janitorial-services.md",
+        "066-locations-west-fargo-nd-commercial-property-maintenance.md",
+        "089-resources-fargo-moorhead-commercial-facility-market-2026.md"
+      ]
+    },
+    {
+      "url": "https://www.census.gov/retail/index.html",
+      "status": 200,
+      "finalUrl": "https://www.census.gov/retail/index.html",
+      "title": "Monthly Retail Trade - Main Page",
+      "files": [
+        "049-industries-auto-dealerships.md",
+        "050-industries-retail-storefronts.md"
+      ]
+    },
+    {
+      "url": "https://www.cisa.gov/topics/physical-security",
+      "status": 200,
+      "finalUrl": "https://www.cisa.gov/topics/physical-security",
+      "title": "Physical Security | Cybersecurity and Infrastructure Security Agency CISA",
+      "files": [
+        "078-resources-switching-janitorial-companies.md",
+        "090-resources-vendor-key-and-access-control.md"
+      ]
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1022/",
+      "status": 200,
+      "finalUrl": "https://www.consumerfinance.gov/rules-policy/regulations/1022/",
+      "title": "12 CFR Part 1022 - Fair Credit Reporting  (Regulation V) | Consumer Financial Protection Bureau",
+      "files": [
+        "093-resources-janitorial-background-checks.md"
+      ]
+    },
+    {
+      "url": "https://www.dli.mn.gov/sick-leave",
+      "status": 200,
+      "finalUrl": "https://www.dli.mn.gov/sick-leave",
+      "title": "Earned sick and safe time (ESST) | Minnesota Department of Labor and Industry",
+      "files": [
+        "008-careers.md",
+        "067-locations-moorhead-mn.md",
+        "068-locations-moorhead-mn-janitorial-services.md"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-12/chapter-I/part-21",
+      "status": 200,
+      "finalUrl": "https://unblock.federalregister.gov/",
+      "title": "Federal Register :: Request Access",
+      "files": [
+        "040-industries-banks-credit-unions.md",
+        "090-resources-vendor-key-and-access-control.md"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107",
+      "status": 200,
+      "finalUrl": "https://unblock.federalregister.gov/",
+      "title": "Federal Register :: Request Access",
+      "files": [
+        "029-services-aerial-inspection-documentation.md",
+        "034-services-construction-progress-aerial-documentation.md",
+        "098-resources-faa-part-107-drone-inspections.md"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D",
+      "status": 200,
+      "finalUrl": "https://unblock.federalregister.gov/",
+      "title": "Federal Register :: Request Access",
+      "files": [
+        "032-services-facade-building-envelope-inspection.md"
+      ]
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-416",
+      "status": 200,
+      "finalUrl": "https://unblock.federalregister.gov/",
+      "title": "Federal Register :: Request Access",
+      "files": [
+        "038-industries-surgical-centers.md"
+      ]
+    },
+    {
+      "url": "https://www.eeoc.gov/laws/guidance/background-checks-what-employers-need-know",
+      "status": 200,
+      "finalUrl": "https://www.eeoc.gov/laws/guidance/background-checks-what-employers-need-know",
+      "title": "Background Checks: What Employers Need to Know | U.S. Equal Employment Opportunity Commission",
+      "files": [
+        "006-background-checked-staff.md",
+        "093-resources-janitorial-background-checks.md"
+      ]
+    },
+    {
+      "url": "https://www.energy.gov/cmei/buildings/opaque-envelope",
+      "status": 200,
+      "finalUrl": "https://www.energy.gov/cmei/buildings/opaque-envelope",
+      "title": "Opaque Envelope | Department of Energy",
+      "files": [
+        "032-services-facade-building-envelope-inspection.md"
+      ]
+    },
+    {
+      "url": "https://www.energy.gov/cmei/femp/operations-and-maintenance-federal-facilities",
+      "status": 200,
+      "finalUrl": "https://www.energy.gov/cmei/femp/operations-and-maintenance-federal-facilities",
+      "title": "Operations and Maintenance in Federal Facilities | Department of Energy",
+      "files": [
+        "027-services-preventive-maintenance-walkthroughs.md",
+        "028-services-property-condition-reports.md"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/coronavirus-and-disinfectants/whats-difference-between-products-disinfect-sanitize-and-clean",
+      "status": 200,
+      "finalUrl": "https://www.epa.gov/coronavirus-and-disinfectants/whats-difference-between-products-disinfect-sanitize-and-clean",
+      "title": "What’s the difference between products that disinfect, sanitize, and clean surfaces? | US EPA",
+      "files": [
+        "082-resources-cleaning-vs-sanitizing-vs-disinfecting.md",
+        "100-resources-commercial-cleaning-glossary.md"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/iaq-schools",
+      "status": 200,
+      "finalUrl": "https://www.epa.gov/iaq-schools",
+      "title": "Indoor Air Quality Tools for Schools | US EPA",
+      "files": [
+        "052-industries-schools-education.md"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/office-building-occupants-guide-indoor-air-quality",
+      "status": 200,
+      "finalUrl": "https://www.epa.gov/indoor-air-quality-iaq/office-building-occupants-guide-indoor-air-quality",
+      "title": "An Office Building Occupant's Guide to Indoor Air Quality | US EPA",
+      "files": [
+        "016-services-office-cleaning.md",
+        "084-resources-how-often-should-an-office-be-cleaned.md"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/pesticide-registration/selected-epa-registered-disinfectants",
+      "status": 200,
+      "finalUrl": "https://www.epa.gov/pesticide-registration/selected-epa-registered-disinfectants",
+      "title": "Selected EPA-Registered Disinfectants | US EPA",
+      "files": [
+        "082-resources-cleaning-vs-sanitizing-vs-disinfecting.md"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles",
+      "status": 200,
+      "finalUrl": "https://www.epa.gov/safepestcontrol/integrated-pest-management-ipm-principles",
+      "title": "Integrated Pest Management (IPM) Principles | US EPA",
+      "files": [
+        "043-industries-multifamily-common-areas.md"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/saferchoice",
+      "status": 200,
+      "finalUrl": "https://www.epa.gov/saferchoice",
+      "title": "Safer Choice | US EPA",
+      "files": [
+        "053-industries-childcare-centers.md",
+        "085-resources-office-cleaning-checklist.md"
+      ]
+    },
+    {
+      "url": "https://www.faa.gov/uas/commercial_operators",
+      "status": 200,
+      "finalUrl": "https://www.faa.gov/uas/commercial_operators",
+      "title": "Certificated Remote Pilots including Commercial Operators | Federal Aviation Administration",
+      "files": [
+        "029-services-aerial-inspection-documentation.md",
+        "030-services-drone-roof-inspection.md",
+        "033-services-parking-lot-site-condition-survey.md",
+        "035-services-lease-condition-aerial-documentation.md",
+        "097-resources-drone-vs-manual-roof-inspection.md",
+        "100-resources-commercial-cleaning-glossary.md"
+      ]
+    },
+    {
+      "url": "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot",
+      "status": 200,
+      "finalUrl": "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot",
+      "title": "Become a Certificated Remote Pilot | Federal Aviation Administration",
+      "files": [
+        "098-resources-faa-part-107-drone-inspections.md"
+      ]
+    },
+    {
+      "url": "https://www.faa.gov/uas/getting_started/b4ufly",
+      "status": 200,
+      "finalUrl": "https://www.faa.gov/uas/getting_started/b4ufly",
+      "title": "B4UFLY | Federal Aviation Administration",
+      "files": [
+        "060-locations-fargo-nd-drone-inspection.md"
+      ]
+    },
+    {
+      "url": "https://www.faa.gov/uas/getting_started/laanc",
+      "status": 200,
+      "finalUrl": "https://www.faa.gov/uas/getting_started/laanc",
+      "title": "UAS Data Exchange (LAANC) | Federal Aviation Administration",
+      "files": [
+        "029-services-aerial-inspection-documentation.md",
+        "032-services-facade-building-envelope-inspection.md",
+        "060-locations-fargo-nd-drone-inspection.md",
+        "098-resources-faa-part-107-drone-inspections.md"
+      ]
+    },
+    {
+      "url": "https://www.faa.gov/uas/getting_started/remote_id",
+      "status": 200,
+      "finalUrl": "https://www.faa.gov/uas/getting_started/remote_id",
+      "title": "Remote Identification of Drones | Federal Aviation Administration",
+      "files": [
+        "098-resources-faa-part-107-drone-inspections.md"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+      "status": 200,
+      "finalUrl": "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+      "title": "FDA Food Code | FDA",
+      "files": [
+        "051-industries-restaurants.md"
+      ]
+    },
+    {
+      "url": "https://www.fema.gov/flood-maps",
+      "status": 200,
+      "finalUrl": "https://www.fema.gov/flood-maps",
+      "title": "Flood Maps | FEMA.gov",
+      "files": [
+        "095-resources-red-river-flood-season-property-prep.md"
+      ]
+    },
+    {
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/reports/03031/",
+      "status": 200,
+      "finalUrl": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/reports/03031/",
+      "title": "Distress Identification Manual for The LTPP (Fourth Revised Edition) - Distress Identification Manual for The LTPP (Fourth Revised Edition), JUNE 2003 - FHWA-RD-03-031",
+      "files": [
+        "033-services-parking-lot-site-condition-survey.md"
+      ]
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/background-checks-what-employers-need-know",
+      "status": 200,
+      "finalUrl": "https://www.ftc.gov/business-guidance/resources/background-checks-what-employers-need-know",
+      "title": "Background Checks: What Employers Need to Know | Federal Trade Commission",
+      "files": [
+        "006-background-checked-staff.md",
+        "040-industries-banks-credit-unions.md",
+        "074-resources-how-to-choose-a-commercial-cleaning-company.md",
+        "075-resources-questions-to-ask-a-janitorial-company.md",
+        "093-resources-janitorial-background-checks.md"
+      ]
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+      "status": 200,
+      "finalUrl": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+      "title": "Protecting Personal Information: A Guide for Business | Federal Trade Commission",
+      "files": [
+        "041-industries-professional-offices.md",
+        "077-resources-janitorial-contract-terms.md"
+      ]
+    },
+    {
+      "url": "https://www.gsa.gov/real-estate",
+      "status": 200,
+      "finalUrl": "https://www.gsa.gov/real-estate",
+      "title": "Real estate | GSA",
+      "files": [
+        "076-resources-janitorial-scope-of-work-template.md",
+        "092-resources-janitorial-qa-inspection-scoring.md"
+      ]
+    },
+    {
+      "url": "https://www.health.state.mn.us/communities/environment/air/index.html",
+      "status": 200,
+      "finalUrl": "https://www.health.state.mn.us/communities/environment/air/index.html",
+      "title": "Air Quality - MN Dept. of Health",
+      "files": [
+        "069-locations-moorhead-mn-office-cleaning.md"
+      ]
+    },
+    {
+      "url": "https://www.health.state.mn.us/people/foodsafety/index.html",
+      "status": 200,
+      "finalUrl": "https://www.health.state.mn.us/people/foodsafety/index.html",
+      "title": "Food Safety - MN Dept. of Health",
+      "files": [
+        "051-industries-restaurants.md"
+      ]
+    },
+    {
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/incidental-uses-and-disclosures/index.html",
+      "status": 200,
+      "finalUrl": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/incidental-uses-and-disclosures/index.html",
+      "title": "Incidental Uses and Disclosures | HHS.gov",
+      "files": [
+        "086-resources-medical-office-cleaning-checklist.md"
+      ]
+    },
+    {
+      "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+      "status": 200,
+      "finalUrl": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html",
+      "title": "The HIPAA Privacy Rule | HHS.gov",
+      "files": [
+        "036-industries-medical-offices.md",
+        "037-industries-dental-offices.md"
+      ]
+    },
+    {
+      "url": "https://www.ifma.org/about/what-is-fm/",
+      "status": 200,
+      "finalUrl": "https://www.ifma.org/about/what-is-fm/",
+      "title": "What Is Facility Management? Definition and Skills | IFMA",
+      "files": [
+        "026-services-facility-management-services.md",
+        "080-resources-facility-maintenance-vs-facility-management.md"
+      ]
+    },
+    {
+      "url": "https://www.iii.org/fact-statistic/facts-statistics-hail",
+      "status": 200,
+      "finalUrl": "https://www.iii.org/fact-statistic/facts-statistics-hail",
+      "title": "Facts + Statistics: Hail - Triple-I®",
+      "files": [
+        "031-services-hail-storm-damage-documentation.md",
+        "096-resources-hail-season-roof-documentation.md"
+      ]
+    },
+    {
+      "url": "https://www.irem.org/",
+      "status": 200,
+      "finalUrl": "https://www.irem.org/",
+      "title": "International institute with the learning, certifications, and networking for real estate property managers - IREM",
+      "files": [
+        "088-resources-property-manager-janitorial-checklist.md"
+      ]
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-pdf/p4557.pdf",
+      "status": 200,
+      "finalUrl": "https://www.irs.gov/pub/irs-pdf/p4557.pdf",
+      "title": "",
+      "files": [
+        "041-industries-professional-offices.md"
+      ]
+    },
+    {
+      "url": "https://www.issa.com/",
+      "status": 200,
+      "finalUrl": "https://www.issa.com/",
+      "title": "ISSA | The Association for Cleaning & Facility Solutions",
+      "files": [
+        "023-services-janitorial-account-management.md",
+        "074-resources-how-to-choose-a-commercial-cleaning-company.md",
+        "091-resources-measuring-cleaning-quality-appa-levels.md",
+        "092-resources-janitorial-qa-inspection-scoring.md"
+      ]
+    },
+    {
+      "url": "https://www.moorheadmn.gov/",
+      "status": 200,
+      "finalUrl": "https://www.moorheadmn.gov/",
+      "title": "Home | City of Moorhead",
+      "files": [
+        "070-locations-moorhead-mn-commercial-property-maintenance.md"
+      ]
+    },
+    {
+      "url": "https://www.nass.usda.gov/Statistics_by_State/North_Dakota/index.php",
+      "status": 200,
+      "finalUrl": "https://www.nass.usda.gov/Statistics_by_State/North_Dakota/index.php",
+      "title": "USDA - National Agricultural Statistics Service - North Dakota",
+      "files": [
+        "048-industries-agtech-equipment-dealers.md"
+      ]
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/access/storm-events-database/",
+      "status": 200,
+      "finalUrl": "https://www.ncei.noaa.gov/access/storm-events-database/",
+      "title": "Storm Events Database",
+      "files": [
+        "031-services-hail-storm-damage-documentation.md",
+        "060-locations-fargo-nd-drone-inspection.md",
+        "096-resources-hail-season-roof-documentation.md"
+      ]
+    },
+    {
+      "url": "https://www.nps.gov/orgs/1739/upload/preservation-brief-01-cleaning-masonry.pdf",
+      "status": 200,
+      "finalUrl": "https://www.nps.gov/orgs/1739/upload/preservation-brief-01-cleaning-masonry.pdf",
+      "title": "",
+      "files": [
+        "054-industries-churches.md"
+      ]
+    },
+    {
+      "url": "https://www.nrca.net/",
+      "status": 200,
+      "finalUrl": "https://www.nrca.net/",
+      "title": "National Roofing Contractors Association Home - NRCA",
+      "files": [
+        "097-resources-drone-vs-manual-roof-inspection.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/bloodborne-pathogens",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/bloodborne-pathogens",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "099-resources-osha-bloodborne-pathogens-medical-office-cleaning.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/construction",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/construction",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "034-services-construction-progress-aerial-documentation.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/control-hazardous-energy",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/control-hazardous-energy",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "046-industries-manufacturing-plants.md",
+        "047-industries-industrial-facilities.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/dentistry",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/dentistry",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "037-industries-dental-offices.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/fall-protection",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/fall-protection",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "030-services-drone-roof-inspection.md",
+        "097-resources-drone-vs-manual-roof-inspection.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/hazcom",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/hazcom",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "049-industries-auto-dealerships.md",
+        "100-resources-commercial-cleaning-glossary.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "036-industries-medical-offices.md",
+        "038-industries-surgical-centers.md",
+        "086-resources-medical-office-cleaning-checklist.md",
+        "099-resources-osha-bloodborne-pathogens-medical-office-cleaning.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "015-services-commercial-janitorial-services.md",
+        "047-industries-industrial-facilities.md",
+        "073-resources-in-house-vs-outsourced-janitorial.md",
+        "075-resources-questions-to-ask-a-janitorial-company.md",
+        "076-resources-janitorial-scope-of-work-template.md",
+        "085-resources-office-cleaning-checklist.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.141",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.141",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "017-services-facility-cleaning.md",
+        "046-industries-manufacturing-plants.md",
+        "047-industries-industrial-facilities.md",
+        "048-industries-agtech-equipment-dealers.md",
+        "065-locations-west-fargo-nd-industrial-janitorial.md",
+        "084-resources-how-often-should-an-office-be-cleaned.md",
+        "087-resources-warehouse-housekeeping-osha.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.22",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.22",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "017-services-facility-cleaning.md",
+        "025-services-facility-maintenance.md",
+        "045-industries-warehouses-distribution.md",
+        "049-industries-auto-dealerships.md",
+        "050-industries-retail-storefronts.md",
+        "065-locations-west-fargo-nd-industrial-janitorial.md",
+        "087-resources-warehouse-housekeeping-osha.md",
+        "094-resources-winter-facility-care-fargo.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.37",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.37",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "025-services-facility-maintenance.md",
+        "027-services-preventive-maintenance-walkthroughs.md",
+        "087-resources-warehouse-housekeeping-osha.md",
+        "088-resources-property-manager-janitorial-checklist.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/warehousing",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/warehousing",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "045-industries-warehouses-distribution.md",
+        "062-locations-fargo-nd-warehouse-janitorial.md",
+        "087-resources-warehouse-housekeeping-osha.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/winter-weather",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/winter-weather",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "094-resources-winter-facility-care-fargo.md"
+      ]
+    },
+    {
+      "url": "https://www.osha.gov/workplace-violence",
+      "status": 403,
+      "finalUrl": "https://www.osha.gov/workplace-violence",
+      "title": "ERROR: The request could not be satisfied",
+      "files": [
+        "018-services-after-hours-janitorial.md"
+      ]
+    },
+    {
+      "url": "https://www.ready.gov/floods",
+      "status": 200,
+      "finalUrl": "https://www.ready.gov/floods",
+      "title": "Floods | Ready.gov",
+      "files": [
+        "095-resources-red-river-flood-season-property-prep.md"
+      ]
+    },
+    {
+      "url": "https://www.revenue.state.mn.us/sales-and-use-tax",
+      "status": 200,
+      "finalUrl": "https://www.revenue.state.mn.us/sales-and-use-tax",
+      "title": "Sales and Use Tax | Minnesota Department of Revenue",
+      "files": [
+        "067-locations-moorhead-mn.md",
+        "068-locations-moorhead-mn-janitorial-services.md",
+        "070-locations-moorhead-mn-commercial-property-maintenance.md",
+        "071-resources-commercial-cleaning-cost-fargo.md",
+        "077-resources-janitorial-contract-terms.md"
+      ]
+    },
+    {
+      "url": "https://www.sba.gov/counseling/launch-your-business/",
+      "status": 200,
+      "finalUrl": "https://www.sba.gov/counseling/launch-your-business/",
+      "title": "Launch your business - Small Business Administration",
+      "files": [
+        "005-insured-and-bonded.md",
+        "035-services-lease-condition-aerial-documentation.md",
+        "074-resources-how-to-choose-a-commercial-cleaning-company.md",
+        "075-resources-questions-to-ask-a-janitorial-company.md",
+        "077-resources-janitorial-contract-terms.md",
+        "078-resources-switching-janitorial-companies.md",
+        "083-resources-bonded-vs-insured-cleaning-company.md"
+      ]
+    },
+    {
+      "url": "https://www.sba.gov/loans/additional-funding-opportunities/surety-bonds/",
+      "status": 200,
+      "finalUrl": "https://www.sba.gov/loans/additional-funding-opportunities/surety-bonds/",
+      "title": "Surety bonds - Small Business Administration",
+      "files": [
+        "005-insured-and-bonded.md",
+        "083-resources-bonded-vs-insured-cleaning-company.md"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/fgf/",
+      "status": 200,
+      "finalUrl": "https://www.weather.gov/fgf/",
+      "title": "Grand Forks, ND",
+      "files": [
+        "024-services-commercial-property-maintenance.md",
+        "027-services-preventive-maintenance-walkthroughs.md",
+        "030-services-drone-roof-inspection.md",
+        "058-locations-fargo-nd-office-cleaning.md",
+        "059-locations-fargo-nd-commercial-property-maintenance.md",
+        "066-locations-west-fargo-nd-commercial-property-maintenance.md",
+        "094-resources-winter-facility-care-fargo.md",
+        "095-resources-red-river-flood-season-property-prep.md"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/safety/thunderstorm",
+      "status": 200,
+      "finalUrl": "https://www.weather.gov/safety/thunderstorm",
+      "title": "Severe Thunderstorm Safety",
+      "files": [
+        "031-services-hail-storm-damage-documentation.md",
+        "096-resources-hail-season-roof-documentation.md"
+      ]
+    },
+    {
+      "url": "https://www.westfargond.gov/",
+      "status": 200,
+      "finalUrl": "https://www.westfargond.gov/",
+      "title": "West Fargo, ND | Official Website",
+      "files": [
+        "066-locations-west-fargo-nd-commercial-property-maintenance.md"
+      ]
+    }
+  ]
+}

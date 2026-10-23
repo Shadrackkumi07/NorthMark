@@ -1,0 +1,1110 @@
+{
+  "checkedAt": "2026-10-23T12:12:55.851Z",
+  "base": "https://northmarkfacilityservices.com",
+  "routes": 107,
+  "passed": 0,
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/accessibility",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/appointments",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/background-checked-staff",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/careers",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/facility-walkthrough",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/faq",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/how-we-work",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/agtech-equipment-dealers",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/auto-dealerships",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/banks-credit-unions",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/childcare-centers",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/churches",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/dental-offices",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/healthcare-facilities",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/industrial-facilities",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/manufacturing-plants",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/medical-offices",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/multi-tenant-office-buildings",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/multifamily-common-areas",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/professional-offices",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/property-management",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/restaurants",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/retail-storefronts",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/schools-education",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/surgical-centers",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/technology-coworking",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/industries/warehouses-distribution",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/insured-and-bonded",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/fargo-nd",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/fargo-nd/commercial-property-maintenance",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/fargo-nd/drone-inspection",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/fargo-nd/janitorial-services",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/fargo-nd/medical-office-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/fargo-nd/office-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/fargo-nd/warehouse-janitorial",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/moorhead-mn",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/moorhead-mn/commercial-property-maintenance",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/moorhead-mn/janitorial-services",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/moorhead-mn/office-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/west-fargo-nd",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/west-fargo-nd/commercial-property-maintenance",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/west-fargo-nd/industrial-janitorial",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/locations/west-fargo-nd/janitorial-services",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/privacy",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/quality-assurance-program",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/bonded-vs-insured-cleaning-company",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/cleaning-vs-sanitizing-vs-disinfecting",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/commercial-cleaning-cost-fargo",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/commercial-cleaning-glossary",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/drone-vs-manual-roof-inspection",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/faa-part-107-drone-inspections",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/facility-maintenance-vs-facility-management",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/fargo-moorhead-commercial-facility-market-2026",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/hail-season-roof-documentation",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/how-often-should-an-office-be-cleaned",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/how-to-choose-a-commercial-cleaning-company",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/in-house-vs-outsourced-janitorial",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/janitorial-background-checks",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/janitorial-contract-terms",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/janitorial-pricing-per-square-foot",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/janitorial-qa-inspection-scoring",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/janitorial-scope-of-work-template",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/janitorial-vs-commercial-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/measuring-cleaning-quality-appa-levels",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/medical-office-cleaning-checklist",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/office-cleaning-checklist",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/osha-bloodborne-pathogens-medical-office-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/property-manager-janitorial-checklist",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/questions-to-ask-a-janitorial-company",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/red-river-flood-season-property-prep",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/switching-janitorial-companies",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/vendor-key-and-access-control",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/warehouse-housekeeping-osha",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/what-is-included-in-janitorial-service",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/resources/winter-facility-care-fargo",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/reviews",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/security-and-access-control",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/aerial-inspection-documentation",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/after-hours-janitorial",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/commercial-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/commercial-janitorial-services",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/commercial-property-maintenance",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/construction-progress-aerial-documentation",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/drone-roof-inspection",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/facade-building-envelope-inspection",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/facility-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/facility-maintenance",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/facility-management-services",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/hail-storm-damage-documentation",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/janitorial-account-management",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/janitorial-subcontracting",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/lease-condition-aerial-documentation",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/multi-site-janitorial",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/office-cleaning",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/parking-lot-site-condition-survey",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/preventive-maintenance-walkthroughs",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/property-condition-reports",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/recurring-janitorial-schedules",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/services/small-business-janitorial",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "canonical": [
+        "https://northmarkfacilityservices.com/"
+      ],
+      "h1s": 0,
+      "noindex": false,
+      "ok": false
+    }
+  ],
+  "resources": [
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "urls": 6
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "route": "/exploring",
+      "status": 403,
+      "contentType": "text/plain; charset=utf-8",
+      "issue": "Invalid proxy proof"
+    },
+    {
+      "route": "/exploring/sitemap.xml",
+      "status": 403,
+      "contentType": "text/plain; charset=utf-8",
+      "urls": 0,
+      "issue": "Invalid proxy proof"
+    },
+    {
+      "route": "/nonexistent-seo-audit-check",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "indexingVerified": false
+}

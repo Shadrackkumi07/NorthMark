@@ -6,9 +6,14 @@
   "private": true,
   "scripts": {
     "dev": "vite dev --host",
-    "build": "vite build",
+    "build": "vite build && vite build --ssr src/entry-seo.js && node scripts/seo/build-pages.mjs && node scripts/seo/verify-dist.mjs",
     "preview": "vite preview",
-    "lint": "echo \"Add linting if needed\""
+    "lint": "echo \"Add linting if needed\"",
+    "seo:audit": "npm run build",
+    "test:seo": "playwright test",
+    "seo:verify": "node scripts/seo/verify-dist.mjs",
+    "seo:links": "node scripts/seo/check-links.mjs",
+    "seo:live": "node scripts/seo/check-live.mjs"
   },
   "repository": {
     "type": "git",
@@ -28,15 +33,18 @@
   "homepage": "https://github.com/Shadrackkumi07/NorthMark#readme",
   "dependencies": {
     "@quasar/extras": "1.17.0",
-    "dompurify": "3.3.1",
-    "quasar": "2.18.6",
-    "vue": "3.5.26",
+    "dompurify": "3.4.17",
+    "quasar": "2.35.2",
+    "vue": "3.5.44",
     "vue-router": "4.6.4"
   },
   "devDependencies": {
+    "@playwright/test": "1.64.1",
     "@quasar/vite-plugin": "1.10.0",
     "@vitejs/plugin-vue": "6.0.3",
+    "@vue/server-renderer": "3.5.44",
+    "parse5": "8.0.1",
     "sass": "1.97.2",
-    "vite": "7.3.0"
+    "vite": "7.3.7"
   }
 }

@@ -26,7 +26,7 @@ const securityHeaders = {
   'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload'
 };
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(({ mode, isSsrBuild }) => {
   loadEnv(mode, process.cwd(), '');
 
   return {
@@ -35,6 +35,7 @@ export default defineConfig(({ mode }) => {
         template: { transformAssetUrls }
       }),
       quasar({
+        runMode: isSsrBuild ? 'ssr-server' : 'web-client',
         sassVariables: 'src/assets/styles/quasar-variables.sass'
       })
     ],
@@ -50,12 +51,12 @@ export default defineConfig(({ mode }) => {
       }
     },
     build: {
+      outDir: isSsrBuild ? '.seo-ssr' : 'dist',
+      manifest: !isSsrBuild,
       sourcemap: false,
       rollupOptions: {
         output: {
-          manualChunks: {
-            vendor: ['vue', 'vue-router', 'quasar']
-          }
+          ...(isSsrBuild ? {} : { manualChunks: { vendor: ['vue', 'vue-router', 'quasar'] } })
         }
       }
     }

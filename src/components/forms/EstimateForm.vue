@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-form class="nm-form" @submit.prevent="handleSubmit">
+    <q-form v-if="estimateAvailable" class="nm-form" @submit.prevent="handleSubmit">
       <div class="row q-col-gutter-md">
         <div class="col-12 col-md-6">
           <q-input
@@ -109,6 +109,11 @@
       </div>
     </q-form>
 
+    <p v-if="!estimateAvailable" class="text-body1">
+      <a href="/appointments">Book a consultation online</a>, call <a href="tel:+17015616324">(701) 561-6324</a>,
+      or <a href="mailto:contact@northmarkfacilityservices.com">email our team</a> to request an estimate.
+    </p>
+
     <q-banner
       v-if="submitted"
       class="q-mt-lg bg-green-1 text-green-9"
@@ -124,6 +129,9 @@
 <script setup>
 import { reactive, ref } from 'vue';
 import { Notify } from 'quasar';
+import { formatPhone } from '../../utils/security';
+
+const estimateAvailable = Boolean(import.meta.env.VITE_ESTIMATE_API);
 import useFormValidation from '../../composables/useFormValidation';
 import useSecureSubmit from '../../composables/useSecureSubmit';
 
@@ -185,7 +193,7 @@ const handleSubmit = async () => {
   } catch (error) {
     Notify.create({
       type: 'negative',
-      message: 'We could not submit the form. Please try again in a moment.'
+      message: 'We could not send your request. Please call (701) 561-6324 or book a consultation online.'
     });
   }
 };

@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <q-layout view="hHh lpR fff" class="bg-light">
     <a href="#main-content" class="sr-only">Skip to main content</a>
 
@@ -35,6 +35,7 @@
             flat
             :label="item.label"
             :to="item.to"
+            :href="item.href"
             :aria-label="item.label"
             class="text-body2 nav-link"
           />
@@ -45,7 +46,7 @@
             label="Request Estimate"
             aria-label="Request an Estimate"
             class="nav-cta"
-            @click="goToEstimate"
+            :to="{ name: 'home', hash: '#estimate' }"
           />
           <div class="row items-center cursor-pointer text-caption text-grey-3 q-ml-sm" @click="openLinkedIn" title="Connect on LinkedIn" style="border-left: 1px solid rgba(255,255,255,0.3); padding-left: 12px;">
             <span>Built by <span class="text-weight-bold text-white">Shark Labs</span></span>
@@ -79,6 +80,7 @@
           :key="item.label"
           clickable
           :to="item.to"
+          :href="item.href"
           @click="drawer = false"
           class="drawer-item"
           :style="{ '--delay': `${index * 0.06}s` }"
@@ -103,7 +105,7 @@
       </q-list>
     </q-drawer>
 
-    <q-page-container id="main-content" class="bg-light nm-page">
+    <q-page-container role="main" id="main-content" class="bg-light nm-page">
       <router-view />
     </q-page-container>
 
@@ -133,7 +135,7 @@
               text-color="primary"
               label="Request an Estimate"
               aria-label="Request an Estimate"
-              @click="goToEstimate"
+              :to="{ name: 'home', hash: '#estimate' }"
             />
           </div>
         </div>
@@ -145,12 +147,15 @@
             <q-btn flat dense class="text-grey-3" label="Privacy Policy" :to="{ name: 'privacy' }" />
             <q-btn flat dense class="text-grey-3" label="Terms of Use" :to="{ name: 'terms' }" />
             <q-btn flat dense class="text-grey-3" label="Accessibility" :to="{ name: 'accessibility' }" />
+            <q-btn flat dense class="text-grey-3" label="Fargo" href="/locations/fargo-nd" />
+            <q-btn flat dense class="text-grey-3" label="West Fargo" href="/locations/west-fargo-nd" />
+            <q-btn flat dense class="text-grey-3" label="Moorhead" href="/locations/moorhead-mn" />
             <q-btn
               flat
               dense
               class="text-grey-3"
               label="Request an Estimate"
-              @click="goToEstimate"
+              :to="{ name: 'home', hash: '#estimate' }"
             />
             <div class="row items-center cursor-pointer q-ml-md" @click="openLinkedIn" title="Connect on LinkedIn" style="border-left: 1px solid rgba(255,255,255,0.3); padding-left: 12px;">
               <span>Built by <span class="text-weight-bold">Shark Labs</span></span>
@@ -174,7 +179,11 @@ const drawer = ref(false);
 
 const navItems = [
   { label: 'Home', to: { name: 'home' }, icon: 'home' },
-  { label: 'Services', to: { name: 'services' }, icon: 'business_center' },
+  { label: 'Services', href: '/services', icon: 'business_center' },
+  { label: 'Industries', href: '/industries', icon: 'domain' },
+  { label: 'Locations', href: '/locations', icon: 'place' },
+  { label: 'Resources', href: '/resources', icon: 'menu_book' },
+  { label: 'About', href: '/about', icon: 'info' },
   { label: 'Reviews', to: { name: 'reviews' }, icon: 'star' },
   { label: 'Contact Us', to: { name: 'home', hash: '#estimate' }, icon: 'support_agent' },
   { label: 'Book Appointment', to: { name: 'appointments' }, icon: 'event' }
@@ -359,3 +368,13 @@ const handleDrawerEstimate = () => {
 }
 </style>
 
+
+<style scoped>
+/* Give the brand its own row before the full desktop navigation. */
+@media (min-width: 1024px) {
+  .nm-toolbar { flex-wrap: wrap; padding: 12px 24px; }
+  .nm-toolbar > .q-toolbar__title { flex: 1 0 100%; margin-bottom: 8px; }
+  .nav-actions { flex: 1 0 100%; margin: 0; gap: 4px; }
+  .nav-actions .q-btn { padding: 4px 8px; }
+}
+</style>

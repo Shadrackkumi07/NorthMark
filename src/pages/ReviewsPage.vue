@@ -5,10 +5,10 @@
         <div class="text-white text-overline text-uppercase q-mb-sm nm-reveal">
           What Our Clients Say
         </div>
-        <div class="nm-display text-white reviews-hero__title nm-reveal nm-reveal--delay">
+        <h1 class="nm-display text-white reviews-hero__title nm-reveal nm-reveal--delay">
           Trusted by property managers and business owners across the region
-        </div>
-        <div class="row items-center q-gutter-sm text-white q-mt-md nm-reveal nm-reveal--delay">
+        </h1>
+        <div v-if="reviews.length" class="row items-center q-gutter-sm text-white q-mt-md nm-reveal nm-reveal--delay">
           <q-rating
             :model-value="averageRating"
             size="22px"
@@ -32,6 +32,7 @@
         <q-btn color="primary" label="Leave a Review" @click="dialogOpen = true" />
       </div>
 
+      <p v-if="!reviews.length" class="text-body1">No client reviews are available to display right now. Have you worked with Northmark? Share your experience, or <a href="/contact">contact our team</a> with questions about a service.</p>
       <div class="row q-col-gutter-lg">
         <div
           v-for="review in reviews"
@@ -146,7 +147,7 @@
 </template>
 
 <script setup>
-import { onBeforeUnmount, onMounted, reactive, ref } from 'vue';
+import { onMounted, reactive, ref } from 'vue';
 import useReviews from '../composables/useReviews';
 import { Notify } from 'quasar';
 import { sanitizeTextInput } from '../utils/sanitizer';

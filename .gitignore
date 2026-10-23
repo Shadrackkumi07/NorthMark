@@ -24,3 +24,8 @@ Thumbs.db
 .idea/
 *.swp
 .env.example
+
+# Temporary server rendering bundle
+.seo-ssr/
+test-results/
+playwright-report/

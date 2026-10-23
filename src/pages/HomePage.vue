@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <q-page class="home-page">
     <section class="nm-hero nm-gradient">
       <div class="nm-hero__glow"></div>
@@ -6,15 +6,15 @@
         <div>
           <div class="hero-kicker text-uppercase text-white nm-reveal">Northmark Facility Services LLC</div>
           <h1 class="nm-display hero-title text-white q-mb-md nm-reveal nm-reveal--delay">
-            Professional Commercial Property Maintenance
+            Secure, Reliable Commercial Cleaning &amp; Facility Services for Fargo&ndash;Moorhead
           </h1>
           <p class="hero-sub text-white q-mb-lg nm-reveal nm-reveal--delay">
             Supporting daily building operations and protecting property condition with documented
             procedures and quality control standards.
           </p>
           <div class="row q-gutter-sm items-center nm-reveal nm-reveal--delay">
-            <q-btn color="white" text-color="primary" label="Request an Estimate" @click="goToEstimate" />
-            <q-btn flat class="text-white" label="View Services" :to="{ name: 'services' }" />
+            <q-btn color="white" text-color="primary" label="Request an Estimate" href="#estimate" />
+            <q-btn flat class="text-white" label="View Services" href="/services" />
           </div>
         </div>
         <div class="nm-hero__panel nm-reveal nm-reveal--delay">
@@ -49,7 +49,7 @@
             Northmark Facility Services LLC provides professional commercial property maintenance and
             janitorial services focused on supporting daily building operations and protecting property
             condition. Our services include commercial property maintenance and cleaning, routine
-            janitorial services, and general facility upkeep for offices, and
+            janitorial services, and general facility upkeep for offices and
             commercial buildings. We work with property owners and managers to maintain clean, safe, and
             consistently serviced environments through documented procedures and quality control
             standards.
@@ -115,7 +115,7 @@
           <h2 class="nm-section-title">Service highlights</h2>
           <div class="text-body1 text-grey-8">A snapshot of the solutions we deliver every day.</div>
         </div>
-        <q-btn outline color="primary" label="Learn More" :to="{ name: 'services' }" />
+        <q-btn outline color="primary" label="Learn More" href="/services" />
       </div>
       <div class="row q-col-gutter-lg">
         <div v-for="item in servicesPreview" :key="item.title" class="col-12 col-md-6 col-lg-3">
@@ -188,7 +188,7 @@
           </div>
         </div>
         <div class="col-12 col-md-auto">
-          <q-btn color="white" text-color="primary" label="Request an Estimate" @click="goToEstimate" />
+          <q-btn color="white" text-color="primary" label="Request an Estimate" href="#estimate" />
         </div>
       </div>
     </section>
@@ -200,8 +200,7 @@
             <div class="col-12 col-md-8">
               <div class="text-h6 q-mb-xs">Request an Estimate</div>
               <p class="text-body2 q-mb-none">
-                Tell us about your facility needs. All fields are required and protected with
-                validation, sanitization, and rate limiting.
+                Tell us about your building, preferred schedule and service needs. All fields are required. You can also call us to discuss a walkthrough.
               </p>
             </div>
             <div class="col-12 col-md-auto">
@@ -216,10 +215,8 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
 import EstimateForm from '../components/forms/EstimateForm.vue';
 
-const router = useRouter();
 
 const servicesPreview = [
   {
@@ -229,7 +226,7 @@ const servicesPreview = [
   },
   {
     title: 'Routine Janitorial',
-    description: 'Customized schedules for offices, and buildings.',
+    description: 'Customized schedules for offices and buildings.',
     icon: 'cleaning_services'
   },
   {
@@ -280,9 +277,6 @@ const coreValues = [
   }
 ];
 
-const goToEstimate = () => {
-  router.push({ hash: '#estimate' });
-};
 </script>
 
 <style scoped>
@@ -295,7 +289,8 @@ const goToEstimate = () => {
   border-bottom-right-radius: 32px;
   box-shadow: 0 20px 40px rgba(8, 18, 30, 0.12);
   background-image: linear-gradient(rgba(15, 48, 87, 0.68), rgba(15, 48, 87, 0.68)), url('/HOME.jpg');
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
